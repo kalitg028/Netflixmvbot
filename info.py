@@ -46,12 +46,12 @@ LIMIT_MODE = is_enabled((environ.get('LIMIT_MODE', 'True')), False)
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6004928770').split()]
-OWNER_USER_NAME = environ.get("OWNER_USER_NAME", "Safaridev") # widout 👉 @
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002101778109').split()]
+OWNER_USER_NAME = environ.get("OWNER_USER_NAME", "Indian_MV_Admin_Bot") # widout 👉 @
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002848164646').split()]
 # post channel auto post new movie
-POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1001998895377').split(','))))
-AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '0'))
-AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '0'))
+POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1002696437736').split(','))))
+AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002698964455'))
+AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002698964455'))
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 
 # MongoDB information
@@ -63,7 +63,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Safaribotts')
 STREAM_SITE = (environ.get('STREAM_SITE', 'sharedisklinks.com'))
 STREAM_API = (environ.get('STREAM_API', '587f94f0e0b1813a52aed61290af6ea79d6ee464'))
 STREAM_HTO = (environ.get('STREAMHTO', 'https://t.me/Hoe/69'))
-STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), False)
+STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "True")), False)
 
 
 #verify site api and url
@@ -80,9 +80,9 @@ THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "600"))
 VERIFY_URL3 = environ.get('VERIFY_URL3', 'sharedisklinks.com')
 VERIFY_API3 = (environ.get('VERIFY_API3', '587f94f0e0b1813a52aed61290af6ea79d6ee464'))
  
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/shdjekkw')
-TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/hejejje')
-TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/safabsovhwi3')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Indian_MV')
+TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/Indian_MV')
+TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/Indian_MV')
 
 # auto files delete
 AUTO_FILE_DELETE = is_enabled((environ.get('AUTO_FILE_DELETE', "True")), False)
@@ -130,9 +130,9 @@ URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else \
     "https://{}:{}/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
-SESSION_NAME = str(environ.get('SESSION_NAME', 'safaribotts'))
+SESSION_NAME = str(environ.get('SESSION_NAME', 'Indian_MV'))
 MULTI_CLIENT = False
-name = str(environ.get('name', 'safaribotts'))
+name = str(environ.get('name', 'Indian_MV'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
