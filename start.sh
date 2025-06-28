@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Safaridevv/Safari-Filter-Bot.git /Safari-Filter-Bot
+  git clone https://github.com/kalitg028/Netflixmvbot.git /Safari-Filter-Bot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /SuperBot
