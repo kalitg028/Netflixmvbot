@@ -50,7 +50,7 @@ OWNER_USER_NAME = environ.get("OWNER_USER_NAME", "Indian_MV_Admin_Bot") # widout
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002848164646').split()]
 # post channel auto post new movie
 POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1002696437736').split(','))))
-AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002327045567'))
+AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002698964455'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '0'))
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 
@@ -87,7 +87,7 @@ TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/Indian_MV')
 # auto files delete
 AUTO_FILE_DELETE = is_enabled((environ.get('AUTO_FILE_DELETE', "True")), False)
 
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1001998895377').split()]
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002070320220').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "7")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
