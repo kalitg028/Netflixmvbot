@@ -222,7 +222,6 @@ Money heist S0E01
     IMDB_TEMPLATE_TXT = """
 <b>
 🏷 Title: <a href={url}>{title}</a>
-🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10
 📤 Upload : @Indian_MV</b> """
