@@ -212,10 +212,10 @@ Money heist S0E01
 ★ Bᴏᴛ {}
 ★ Uᴇʀ <b>: {}</b>
 
-★ Mᴇssᴀɢᴇ <code>{}</code>"""
+★ Mᴇssᴀɢᴇ : <code>{}</code>"""
 
     CAPTION = """
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : <b>{file_name}
+<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : {file_name}
 
 <blockquote>🌹 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 ›› <a href="https://t.me/Indian_MV">🇮🇳 𝐈𝐧𝐝𝐢𝐚𝐧 𝐌𝐕 🇮🇳</a></blockquote></b>"""
 
@@ -227,7 +227,7 @@ Money heist S0E01
 📤 Upload : @Indian_MV</b> """
     
     CHANNELS = """
-<b>ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ғᴏʀ ʀᴇᴘᴏ ᴜᴘᴅᴀᴛᴇs </b>"""
+<b>ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴏғғɪᴄɪᴀʟ ᴜᴘᴅᴀᴛᴇs </b>"""
     
     STATUS_TXT = """<b>    
 ‣ ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{}</code>
@@ -369,32 +369,32 @@ Money heist S0E01
 sᴇᴀʀᴄʜ🔍 ᴍᴏᴠɪᴇ ᴀɢᴀɪɴ</u> ꜰʀᴏᴍ ɴᴏᴡ !</b>"""
     
     
-    NOT_AVAILABLE_TXT = """{}
+    NOT_AVAILABLE_TXT = """<b><blockquote>ʏᴏᴜ ʀᴇǫᴜᴇsᴛᴇᴅ: {}
 
-ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ"""
+ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ</blockquote></b>"""
 
-    SERIES_FORMAT_TXT = """{}
+    SERIES_FORMAT_TXT = """<b><blockquote>{}
     
 ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ ᴡʀᴏɴɢ❌ 
 ғᴏʟʟᴏᴡ ᴛʜɪs ғᴏʀᴍᴀᴛ 👇
 
 Money heist S01E01
-Money heist S01"""
+Money heist S01</blockquote></b>"""
 
-    UPLOADED_TXT = """{}
+    UPLOADED_TXT = """<b><blockquote>ʏᴏᴜ ʀᴇǫᴜᴇsᴛᴇᴅ: {}
     
-ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ ᴜᴘʟᴏᴀᴅᴇᴅ ✅
-sᴇᴀʀᴄʜ 🔍 ᴀɢᴀɪɴ ᴀɴᴅ ᴇɴᴊᴏʏ"""
+ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ ᴜᴘʟᴏᴀᴅᴇᴅ ᴅᴏɴᴇ.✅
+sᴇᴀʀᴄʜ 🔍 ᴀɢᴀɪɴ ᴀɴᴅ ᴇɴᴊᴏʏ</blockquote></b>"""
 
-    NOT_RELEASE_TXT = """{} 
+    NOT_RELEASE_TXT = """<b><blockquote>ʏᴏᴜ ʀᴇǫᴜᴇsᴛᴇᴅ: {} 
     
 ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ ɴᴏᴛ ᴏᴛᴛ ʀᴇʟᴇᴀsᴇ 
-ᴘʟᴇᴀsᴇ🙏 ᴡᴀɪᴛ ᴛʜᴇ ᴏᴛᴛ ʀᴇʟᴇᴀsᴇ ᴅᴀʏ"""
+ᴘʟᴇᴀsᴇ🙏 ᴡᴀɪᴛ ᴛʜᴇ ᴏᴛᴛ ʀᴇʟᴇᴀsᴇ ᴅᴀʏ</blockquote></b>"""
 
-    SPELL_TXT = """{} 
+    SPELL_TXT = """<b><blockquote>ʏᴏᴜ ʀᴇǫᴜᴇsᴛᴇᴅ: {} 
 ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ ɴᴀᴍᴇ ɴᴏᴛ ᴍᴀᴛᴄʜ ᴀɴʏ sᴇʀɪᴇs ᴏʀ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ 
 
-ᴘʟᴇᴀsᴇ ʀᴇǫᴜᴇsᴛ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ"""
+ᴘʟᴇᴀsᴇ ʀᴇǫᴜᴇsᴛ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ</blockquote></b>"""
     
     
     BROADCAST = """<u>{}</u>
